@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #3b5998;
+	float: left;
+}
+.header_up{
+	width: 90%;
+	height: 80px
+}
+.header_up h1{
+	font-family: 'Mina', sans-serif;
+	padding: 17px;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 130px;
+	float: left;
+}
+.header_block{
+	float: right;
+	margin:4px;
+	padding: 15px;
+}
+.email{
+	
+	float: left;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+.email p{
+	font-size: 15px;
+}
+
+.password{
+	
+	float: left;
+	margin-left: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.password p{
+	font-size: 15px;
+}
+.password a{
+	color: #9daccb;
+	text-decoration: none;
+	padding-top: 3px;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+}
+.password a:hover{
+	text-decoration: underline;
+}
+.lbutton{
+	float: left;
+	padding: 16px;
+	
+}
+.lbutton input {
+	background-color: #4267b2;
+	border:1px solid #29487d; 
+	color: white;
+	font-size: 14px;
+	height: 24px;
+	width: 55px;
+	border-radius: 3px;
+
+}
+.lbutton input:hover{
+	background-color:#3b5998;
+}
+
+
+
+section{
+	background: linear-gradient(to bottom,#fff 0%, #d7ddea 35%);
+	width: 100%;
+	height: 750px;
+}
+
+.contentbox{
+	
+	height: 750px;
+	width: 980px;
+	margin-left: 150px;
+}
+
+.leftpic{
+	padding-top: 55px;
+	float: left;
+	margin-left: 0px;
+}
+.leftpic h3{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.rightside{
+	float: left;
+	padding-top: 30px;
+}
+.upper h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px
+
+}
+.upper p{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 5px;
+}
+
+.from{
+
+}
+.from input[type='text']{
+	width: 200px;
+	height: 35px;
+	margin:5px;
+	border-radius: 5px;
+	border:1px solid #d7ddea;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.from input[type='email']{
+	width: 420px;
+	height: 35px;
+	margin:5px;
+	border-radius: 5px;
+	border:1px solid #d7ddea;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.from input[type='password']{
+	width: 420px;
+	height: 35px;
+	margin:5px;
+	border-radius: 5px;
+	border:1px solid #d7ddea;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.dateyear{
+
+}
+.dateyear h3{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+#day{
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin:5px;
+	font-size: 16px;
+}
+#month{
+	height: 30px;
+	float: left;
+	margin:5px;
+	font-size: 16px;
+}
+#year{
+	height: 30px;
+	float: left;
+	margin:5px;
+	font-size: 16px;
+}
+
+#birthday-help{
+	text-decoration: none;
+	font-size: 13px;
+	float: left;
+	margin: 5px;
+	color: #3B5998;
+
+}
+#birthday-help:hover{
+	text-decoration: underline;
+}
+
+
+.sex{
+
+}
+
+._58mt{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin: 5px;
+}
+.policy{
+	font-size: 12px;
+	font-family: 'Roboto' , sans-serif;
+	text-align: justify;
+	margin:10px;
+	color:#77777a;
+	
+}
+.policy a{
+	color: #3b5998;
+	text-decoration: none;
+}
+.policy a:hover{
+	text-decoration: underline;
+}
+
+.buttoncreat{
+	padding: 8px 25px;
+	background:linear-gradient(#67ae55, #578843);
+	border:1px solid #3b6a22;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;	
+	text-align: center;
+	font-family: 'Roboto' , sans-serif;
+
+}
+
+.buttoncreat:hover{
+	background: linear-gradient(#6bb555, #62994c);
+}
+.bottom{
+	color:#77777a;
+	font-size: 15px;
+	margin-top: 50px;
+
+}
+.bottom a{
+	text-decoration: none;
+	color: #3b5998;
+}
+.bottom a:hover{
+	text-decoration: underline;
+}
+.footer{
+height: 140px;
+width: 1050px;
+background-color: #fff;
+margin-left: 130px;
+}
+.footer_top{
+	
+}
+.footer_top ul{
+	
+}
+.footer_top li{
+	display: inline;
+	margin:5px;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 12px;
+
+}
+.footer_top a{
+	color: #3b5998;
+	text-decoration: none;
+}
+.footer_top a:hover{
+	text-decoration: underline;
+}
+#contentCurve{
+	width: 100%;
+	height: 2px;
+	background-color:#D7DDEA;
+	margin-top: 10px
+}
+
+.footer_bottom{
+
+}
+.footer_bottom ul{
+	display: inline;
+}
+.footer_bottom li{
+	display: inline;
+	margin:5px;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 12px;
+}
+.footer_bottom a{
+	color: #3b5998;
+
+	text-decoration: none;
+
+}
+
+.footer_bottom a:hover{
+	text-decoration: underline;
+}
